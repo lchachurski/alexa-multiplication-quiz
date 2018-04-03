@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.791cc835-5e98-462c-856f-bdb195d0ba89",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-calculator-quiz"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
